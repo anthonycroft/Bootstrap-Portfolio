@@ -26,6 +26,8 @@
   box-shadow: 0 0 0 2em transparent !important;
 }
 
-
+#me {
+  border: rgb(154, 151, 151) 3px solid;
+}
 
 
