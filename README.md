@@ -11,7 +11,7 @@ https://anthonycroft.github.io/bootstrap-portfolio/
 
 ## Repo Link:
 
-https://github.com/anthonycroft/bootstrap-portfolio-site
+https://github.com/anthonycroft/bootstrap-portfolio
 
 ## Screenshot:
 
