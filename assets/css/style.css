@@ -1,3 +1,10 @@
+:root {
+  --body-text-color: #6c757d;
+}
+
+body {
+  color: var(--body-text-color);
+}
 
 /* button and card hover affects */
 .card {
@@ -26,8 +33,57 @@
   box-shadow: 0 0 0 2em transparent !important;
 }
 
+/* Set About Me profile border */
 #me {
   border: rgb(154, 151, 151) 3px solid;
 }
+
+/* create separation betweeen skill icon and its text */
+.skill-icon {
+  margin-right: 10px;
+}
+
+/* Media queries to align skill text - adj required due to unequal text lengths 
+(can not handle easily through Bootstrap columns) */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  #skill-2, #skill-4 {
+    text-align: left;
+    padding-left: 150px;
+  }
+
+  #skill-1, #skill-3 {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+}
+
+@media (max-width: 767px) {
+ 
+  /* vertically align text when using 2 rows */
+  .skill {
+    margin-left: 115px;
+    text-align: left;
+  }
+
+}
+
+/* give approx. equal spaces between skill text of unequal lengths */
+@media (min-width: 991px) {
+ 
+  #skill-3, #skill-4 {
+    text-align: right;
+  }
+
+  #skill-2 {
+    text-align: center;
+  }
+
+}
+
+
+
+
 
 
